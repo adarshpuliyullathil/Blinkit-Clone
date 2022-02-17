@@ -33,7 +33,7 @@ const handleClose=()=>{
                             </Typography>
                             {/* dropdown items */}
 
-                            <Menu id="basic-menu" anchorEl={anchorEl}  open={openMenu}  onClose={handleClose} style={{marginLeft:"140px"}}>
+                            <Menu id="basic-menu" anchorEl={anchorEl}  open={openMenu}  onClose={handleClose} style={{marginLeft:"340px"}}>
                                 <MenuItem onClick={handleClose}><Link to="/myorders">My orders</Link></MenuItem>
                                 <MenuItem onClick={handleClose}><Link to="/savedaddress">savedaddress</Link></MenuItem>
                                 <MenuItem onClick={handleClose}><Link to="/mywallet">My wallet</Link></MenuItem>
