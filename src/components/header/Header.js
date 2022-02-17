@@ -23,7 +23,6 @@ const handleClose=()=>{
     return (
         <>
         <Link to="/" ></Link> 
-        <Link to="/categories">Categories</Link> 
         <Link to="/cart">Cart</Link> 
         <Typography
                             aria-controls="basic-menu"
@@ -34,7 +33,7 @@ const handleClose=()=>{
                             </Typography>
                             {/* dropdown items */}
 
-                            <Menu id="basic-menu" anchorEl={anchorEl}  open={openMenu}  onClose={handleClose}>
+                            <Menu id="basic-menu" anchorEl={anchorEl}  open={openMenu}  onClose={handleClose} style={{marginLeft:"140px"}}>
                                 <MenuItem onClick={handleClose}><Link to="/myorders">My orders</Link></MenuItem>
                                 <MenuItem onClick={handleClose}><Link to="/savedaddress">savedaddress</Link></MenuItem>
                                 <MenuItem onClick={handleClose}><Link to="/mywallet">My wallet</Link></MenuItem>
@@ -45,6 +44,29 @@ const handleClose=()=>{
                             </Menu>
 
                             {/* dropdown items ends */}
+
+
+
+                            <Typography
+                            aria-controls="basic-menu"
+                            aria-haspopup="true"
+                            aria-expanded={openMenu ? 'true':undefined}
+                            onClick={handleClick}
+                            >categories
+                            </Typography>
+                            {/* dropdown items */}
+
+                            <Menu id="basic-menu" anchorEl={anchorEl}  open={openMenu}  onClose={handleClose}>
+                                <MenuItem onClick={handleClose}><Link to="/atta">atta, rice & dal </Link></MenuItem>
+                                <MenuItem onClick={handleClose}><Link to="/masala">masala ,oil & more </Link></MenuItem>
+                                <MenuItem onClick={handleClose}><Link to="/fruits">vegitables & fruits</Link></MenuItem>
+                                <MenuItem onClick={handleClose}><Link to="/cleaning">cleaning essentials</Link></MenuItem>
+                                <MenuItem onClick={handleClose}><Link to="/breakfast">breakfast & instant food</Link></MenuItem>
+                                <MenuItem onClick={handleClose}><Link to="/bakery">bakery & biscuits</Link></MenuItem>
+                                <MenuItem onClick={handleClose}><Link to="/personalcare">Personal care</Link></MenuItem>
+
+
+                            </Menu>
         
 
         </>
