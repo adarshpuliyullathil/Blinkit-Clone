@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Blinkit-Clone/static/css/main.3bf099c3.css",
-    "main.js": "/Blinkit-Clone/static/js/main.77e75583.js",
+    "main.css": "/Blinkit-Clone/static/css/main.65516291.css",
+    "main.js": "/Blinkit-Clone/static/js/main.bd06da30.js",
     "static/js/787.270a8f21.chunk.js": "/Blinkit-Clone/static/js/787.270a8f21.chunk.js",
     "static/media/9.jpg": "/Blinkit-Clone/static/media/9.f50080f96dda2f5ff11d.jpg",
     "static/media/12.jpg": "/Blinkit-Clone/static/media/12.f7bfda53cc8a31e46292.jpg",
@@ -18,12 +18,12 @@
     "static/media/7.jpg": "/Blinkit-Clone/static/media/7.d14ca2d5e2f2fdcdd99d.jpg",
     "static/media/8.jpg": "/Blinkit-Clone/static/media/8.a722ca6100c999f75bc1.jpg",
     "index.html": "/Blinkit-Clone/index.html",
-    "main.3bf099c3.css.map": "/Blinkit-Clone/static/css/main.3bf099c3.css.map",
-    "main.77e75583.js.map": "/Blinkit-Clone/static/js/main.77e75583.js.map",
+    "main.65516291.css.map": "/Blinkit-Clone/static/css/main.65516291.css.map",
+    "main.bd06da30.js.map": "/Blinkit-Clone/static/js/main.bd06da30.js.map",
     "787.270a8f21.chunk.js.map": "/Blinkit-Clone/static/js/787.270a8f21.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3bf099c3.css",
-    "static/js/main.77e75583.js"
+    "static/css/main.65516291.css",
+    "static/js/main.bd06da30.js"
   ]
 }
