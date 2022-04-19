@@ -1,0 +1,160 @@
+.title-bar{
+    height: 30%;
+    padding: 1% 0;
+    border-bottom: 1px solid #eee;
+
+}
+.indication{
+    width: 30%;
+    text-align: left;
+    padding-left: 3%;
+}
+.page-indicator{
+    display: inline-block;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: normal;
+    color: #999 !important; 
+}
+.indicator-title{
+    margin: 0;
+    font-size: medium;
+    font-weight: 500;
+}
+.sort-area{
+    position: relative;
+    left: 35%;
+    bottom: 25px;
+    height: 30px;
+    display: inline-block;
+}
+
+.button-view{
+    display: none;
+}
+.sort-select{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.MuiOutlinedInput-root{
+    width:100% !important;
+    height: 30px !important;
+    font-size: small !important;
+    color: #51aa1b!important;
+    border: 1px solid #aaa;
+    text-align: left;
+    font-weight: 500 !important;
+    font-family: Okra,Helvetica;
+    font-size: 12px !important;
+}
+.MuiPaper-root .MuiMenuItem-root{
+    padding: 0 !important;
+    text-align: left;
+    border-bottom: 1px solid #eee !important;
+    
+}
+
+.MuiTypography-root{
+    font-size: small !important;
+}
+.MuiOutlinedInput-notchedOutline{
+    border: 0 !important;
+}
+
+
+@media screen and (max-width:1025px) {
+    .title-bar{
+        width: 100%;
+    }
+    
+    .sort-area{
+        position: relative;
+        left: 25%;
+    }
+}   
+
+
+@media screen and (max-width:769px) {
+    .title-bar{
+        width: 100%;
+    }
+    .indication{
+        display: block;
+        position: initial;
+        width: 80%;
+        text-align: left;
+        margin-left: 1em;
+    }  
+    .sort-area{
+        display: block;
+        position: initial;
+        margin-top: 1em;
+        height: 2em;
+        padding-top: .25em;
+        background-color: #f8f8f8;
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;  
+    }
+    .sort-select{
+        width: 80%;
+        margin-right: 10%;
+    }
+   .MuiFormControl-root{
+       width: 100% !important;
+       background-color: #fff;
+   }
+   .MuiOutlinedInput-root{
+       color: black !important;
+        font-weight: 200 !important;
+       font-size: .75em !important;
+       font-family: Arial, Helvetica, sans-serif !important;
+       
+   }
+   
+    .button-view{
+        display: block;
+        white-space: nowrap;
+        overflow-wrap: normal;
+        overflow:scroll;
+        padding: 2% 0;
+    }
+    .item-button{
+        display: inline-block;
+        background-color: #fff;
+        color: #51aa1b;
+        border: 1px solid #51aa1b;
+        border-radius: 16px;
+        margin-left: .5em;
+        height: 2.5em;
+    }
+    .item-button:empty{
+        display: none;
+    }
+}   
+
+@media screen and (max-width:426px) {
+    .sort-area{
+        height: auto;
+        padding-left: 3%;
+    }
+    .sort-select{
+        width: 75%;
+        margin-left: 3%;
+    }
+    label{
+        font-size: small;
+    }
+
+}
+
+@media screen and (max-width:321px) {
+    .sort-area{
+        height: auto;
+        padding-left: 3%;
+    }
+    .sort-select{
+        width: 74%;
+      
+    }
+}

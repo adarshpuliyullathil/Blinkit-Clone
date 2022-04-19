@@ -1,0 +1,23 @@
+#card-section{
+    width: 78.9%;
+    display: inline-block;
+    border-bottom: 1px solid #eee;
+    border-left: 1px solid #eee;
+}
+.card-list{
+    list-style: none;
+    display: inline;
+}
+@media screen and (max-width:1025px) {
+    #card-section{
+        width: 74.89%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #card-section{
+        width:100%;
+        display: block;
+    }
+    
+}

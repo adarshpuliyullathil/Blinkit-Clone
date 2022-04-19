@@ -32,9 +32,9 @@ import Personalcare from '../pages/categories/personalcare/Personalcare';
 export default function Navigate() {
   return (
     <BrowserRouter>
-        <div>
+       
             <Header/>
-        </div>
+      
     <Routes>
              
       <Route exact path="/" element={<Home />}/>

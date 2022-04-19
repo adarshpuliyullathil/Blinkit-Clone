@@ -1,11 +1,11 @@
 import React from 'react'
 import './Cleaning.css';
+import Sectionbody from './cleaningcomponents/bodysection/Sectionbody';
 
 function Cleaning() {
   return (
-    <div>
-
-      <h1>Cleaning</h1>
+    <div id='cleaning-body'>
+      <Sectionbody />
     </div>
   )
 }

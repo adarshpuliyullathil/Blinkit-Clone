@@ -1,9 +1,11 @@
 import React from 'react'
+import './Breakfast.css';
+import Bodysection from './breakfastcomponents/mainbody/bodysection';
 
 function Breakfast() {
   return (
-    <div>
-      <h1>Breakfast</h1>
+    <div id='breakfast-body'>
+      <Bodysection/>
     </div>
   )
 }

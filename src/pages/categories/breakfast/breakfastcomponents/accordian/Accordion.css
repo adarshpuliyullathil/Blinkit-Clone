@@ -1,0 +1,82 @@
+#accordion-section ul{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+#accordion-section li{
+    list-style: none;
+    text-align: left;
+    border-top: 1px solid #eee;
+    padding: 5% 0;
+    margin: 0 !important;
+    font-size: 14px !important;
+    color: #666;
+    font-weight: 500;
+    min-height: 30px;
+}
+
+#accordion-section{
+    width: 21%;
+    display: inline-block;
+    /* position: sticky; */
+    /* bottom: 2rem; */
+    /* height: 650px; */
+   
+}
+.ScrollbarsCustom-Track{
+    width: 6px !important;
+}
+.ScrollbarsCustom-TrackX{
+    display: none;
+}
+
+.empty-div{
+    height: 2em; 
+}
+
+
+.Mui-selected{
+    border-left: 4px solid #0C831F;
+}
+
+
+#accordion-section li.uk-accordion-inactive{
+    text-decoration: none;
+    color: #666;
+    padding-left: 25px;
+}
+#accordion-section li:active{
+    border-left: 4px solid #0C831F;
+    background-color: lightgray;
+    color: black;
+}
+.uk-accordion-inactive:active{
+    color: black;
+}
+
+.uk-accordion-inactive:hover{
+    text-decoration: none;
+}
+
+li.uk-accordion-title::before{
+    float: left;
+    color: #0C831F !important;
+}
+.sub-items,.uk-accordion-content{
+    padding-left: 10% !important;
+}
+
+
+
+@media screen and (max-width: 1025px) {
+    #accordion-section{
+        width: 25%;
+    }
+}
+@media  screen and (max-width: 769px) {
+    #accordion-section{
+        display: none !important;
+    }
+}
+
+
