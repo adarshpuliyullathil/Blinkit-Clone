@@ -18,9 +18,9 @@
 #accordion-section{
     width: 21%;
     display: inline-block;
-    /* position: sticky; */
-    /* bottom: 2rem; */
-    /* height: 650px; */
+    position: sticky;
+    bottom: 2rem;
+    height: 650px;
    
 }
 .ScrollbarsCustom-Track{

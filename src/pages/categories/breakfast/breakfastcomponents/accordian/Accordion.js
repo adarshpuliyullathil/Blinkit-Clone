@@ -15,9 +15,9 @@ function Accordion() {
 
   return (
     <section id="accordion-section">
-      {/* <Scrollbar style={{ height: "100%" }}> */}
+      <Scrollbar style={{ height: "100%" }}>
         
-      <Tabs
+      {/* <Tabs
      
      orientation="vertical"
      
@@ -262,10 +262,10 @@ function Accordion() {
      />
    </Tabs>
 
-        
+         */}
 
 
-{/* 
+
       <ul>
         <div className="empty-div "></div>
         <li className="uk-accordion-inactive ">
@@ -384,8 +384,8 @@ function Accordion() {
 
           <li className="uk-accordion-inactive">Chyawaprash</li>
         </ul>
-        </ul> */}
-        {/* </Scrollbar> */}
+        </ul> 
+         </Scrollbar>
     </section>
   );
 }
